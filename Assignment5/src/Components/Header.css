@@ -1,0 +1,21 @@
+#headdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    height: 20%;
+    border-bottom: 5px solid #ffd72f;
+}
+.hd{
+        display: flex;
+        justify-content: center;
+    height: 100%;
+    width: 33%;
+
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    font-size: 170%;
+    padding-top:15%
+}
