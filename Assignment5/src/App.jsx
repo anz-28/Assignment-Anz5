@@ -1,11 +1,14 @@
 import React from 'react'
 import Home from './Pages/Home/Home'
-import './App.css'
+import Profile from './Pages/Profile/Profile'
+import GoodBad from './Pages/GoodBad/Goodbad'
 
 function App() {
   return (
     <>
-    <Home />
+    <Home/>
+    {/* <Profile></Profile>
+    <GoodBad/> */}
     </>
   )
 }

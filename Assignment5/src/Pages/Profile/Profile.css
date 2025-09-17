@@ -1,0 +1,121 @@
+#profilemaindiv{
+    height: 78%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+#profilebigtxt{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+   
+}
+#profileimgdiv{
+    height: 100%;
+    width: 60%;
+    background-color: #0a4b2c;
+    border-top-left-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 6%;
+    
+}
+#reddiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: #8d2323;
+    height: 70%;
+    width: 90%;
+    column-gap: 10% ;
+}
+h4{
+    font-family:"DM Serif Text", serif;
+    font-size: 500%;
+    margin: 0%;
+    text-align: left;
+}
+#info{
+    height: 90%;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#links{
+    height: 90%;
+    width: 45%;
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+#pfp{
+    background-image: url('../../assets/Pfpcat.jfif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 30%;
+    width: 70%;
+    aspect-ratio: 1;
+}
+#profileimgdiv p{
+    margin: 0;
+    font-size: 90%;
+}
+#profileimgdiv h3{
+    margin: 0;
+}
+#paradiv{
+    width: 70%;
+}
+.lbtn{
+       display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 70%;
+    background-color: #0a4b2c;
+    font-size: 450%;
+    color: #ffd72f;
+    border-radius: 30px;
+}
+#nextp2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 20%;
+    border-radius: 30px;
+    border-width: 0;
+    background-color: #ffd72f;
+    color:#0a4b2c;
+    font-size: 300%;
+}
+#prev1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    height: 8%;
+    background-color: #ffd72f;
+    color: #0a4b2c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(260%,1100%);
+    z-index: -1;
+    border-radius: 30px;
+    border-width: 0;
+    font-size: 300%;
+}

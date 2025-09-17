@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../Components/header'
 import './Home.css'
-import Button from '../../Components/Button'
+
 function Home() {
   return (
     <>
@@ -10,7 +10,7 @@ function Home() {
       <h1>A CINEMA</h1><h1>YOU ARE A PART OF</h1>
       <h3>Anz</h3>
       <p>login to try the templet and other info.</p>
-      <Button></Button>
+      <button id='nextp1'><ion-icon name="arrow-forward-outline" id="arrow"></ion-icon></button>
     </div>
 
     </>

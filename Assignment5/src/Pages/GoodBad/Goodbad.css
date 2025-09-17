@@ -1,0 +1,105 @@
+#GBmain{
+    height: 78%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+#GBbigtext{
+    height: 100%;
+    width: 35%;
+}
+#GBimgdiv{
+    height: 100%;
+    width: 60%;
+    background-color: #0a4b2c;
+    border-top-left-radius: 40px;
+}
+#GBt{
+    position: absolute;
+    transform: translate(0,110%);
+}
+#GBt h4{
+    font-size: 800%;
+    margin: 0%;
+    line-height: 100%;
+    text-shadow: 
+    0 0 1px #ffd72f,
+    0 0 1px #ffd72f,
+    0 0 10px #ffd72f;
+}
+#prev2{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    height: 8%;
+    background-color: #ffd72f;
+    color: #0a4b2c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(260%,1100%);
+    z-index: -1;
+    border-radius: 30px;
+    border-width: 0;
+    font-size: 300%;
+}
+#GBimgt{width: 84%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+#GBimgdiv{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 60%;
+}
+#nextp3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    width: 20%;
+    border-radius: 30px;
+    border-width: 0;
+    background-color: #ffd72f;
+    color:#0a4b2c;
+    font-size: 300%;
+}
+#GBimgdiv p{
+    font-size: 160% ;
+    margin: 0;
+    line-height: 80%
+}
+#GBred{
+    height: 45%;
+    width:50%;
+    background-color: #8d2323;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+        transform: translate(10%,0);
+}
+#Hcat,#Scat{
+    width: 30%;
+    aspect-ratio: 1;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#Hcat{
+    background-image: url('../../assets/Hcat.jfif');
+}
+#Scat{
+    background-image: url('../../assets/Scat.jfif');
+}
