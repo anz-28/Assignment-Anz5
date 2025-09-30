@@ -7,8 +7,8 @@ function App() {
   return (
     <>
     <Home/>
-    {/* <Profile></Profile>
-    <GoodBad/> */}
+    {/* <Profile></Profile> */}
+    {/* <GoodBad/> */}
     </>
   )
 }
