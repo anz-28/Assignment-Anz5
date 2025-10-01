@@ -5,6 +5,7 @@ import Login from './Pages/Login/Login'
 import Signup from './Pages/Signup/Signup'
 import Goodbad from './Pages/GoodBad/Goodbad'
 import { Routes,Route } from 'react-router-dom'
+import Cinema from './Pages/Cinema/Cinema'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Route path="/GB" element={<Goodbad/>}/>
       <Route path="/Login" element={<Login/>}/>
       <Route path="/Signup" element={<Signup/>}/>
+      <Route path="/Cinema" element={<Cinema/>}/>
     </Routes>
     </>
   )

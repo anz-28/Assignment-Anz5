@@ -24,7 +24,7 @@ function Goodbad() {
                 <div id='Hcat'></div>
                 <div id='Scat'></div>
             </div>
-            <button id='nextp3'><ion-icon name="arrow-forward-outline" id="arrow"></ion-icon></button>
+            <button id='nextp3'onClick={() => navigate("/Cinema")}><ion-icon name="arrow-forward-outline" id="arrow"></ion-icon></button>
         </div>
     </div>
     </>

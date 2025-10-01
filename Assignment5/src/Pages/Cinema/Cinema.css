@@ -1,0 +1,27 @@
+#cinediv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#cinediv img{
+    width: 45%;
+}
+#prev5{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    height: 8%;
+    background-color: #8d2323;
+    color: #ffd72f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(293%,900%);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-width: 0;
+    font-size: 300%;
+}

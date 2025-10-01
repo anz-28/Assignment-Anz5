@@ -28,9 +28,9 @@ function Profile() {
                     </div>
                 </div>
                 <div id='links'>
-                    <button  className='lbtn' id='mail'><ion-icon name="mail-outline"></ion-icon></button>
-                    <button className='lbtn' id='github' ><ion-icon name="logo-github"></ion-icon></button>
-                    <button  className='lbtn' id='discord' ><ion-icon name="logo-discord"></ion-icon></button>
+                   <a href='mailto:anshudharmashahary@gmail.com' target='_blank'> <button  className='lbtn' id='mail'><ion-icon name="mail-outline"></ion-icon></button></a>
+                   <a href='https://github.com/Anz-28' target='_blank'> <button className='lbtn' id='github' ><ion-icon name="logo-github"></ion-icon></button></a>
+                   <a href='https://discordapp.com/users/749895105791393844' target='_blank'><button  className='lbtn' id='discord' ><ion-icon name="logo-discord"></ion-icon></button></a>
                 </div>
             </div>
             <button id='nextp2' onClick={() => navigate("/GB")}><ion-icon name="arrow-forward-outline" id="arrow"></ion-icon></button>
