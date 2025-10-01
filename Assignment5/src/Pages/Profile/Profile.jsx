@@ -1,8 +1,10 @@
 import React from 'react'
 import './Profile.css'
 import Header from '../../Components/header'
+import { useNavigate } from 'react-router-dom'
 
 function Profile() {
+    const navigate = useNavigate();
   return (
     <>
     <Header></Header>
@@ -11,7 +13,7 @@ function Profile() {
             <h4>THE DIRECTOR,</h4><h4>THE WRITER,</h4><h4>THE STAR</h4>
             <h3 id='profileAnz'>Anz</h3>
             <p>‘Just start, even if you don’t know how to do it’</p>
-            <button id='prev1'><ion-icon name="arrow-back-outline"></ion-icon></button>
+            <button id='prev1' onClick={() => navigate("/")}><ion-icon name="arrow-back-outline"></ion-icon></button>
         </div>
         <div id='profileimgdiv'>
             <div id='reddiv'>
@@ -26,12 +28,12 @@ function Profile() {
                     </div>
                 </div>
                 <div id='links'>
-                    <button className='lbtn' id='mail'><ion-icon name="mail-outline"></ion-icon></button>
-                    <button className='lbtn' id='github'><ion-icon name="logo-github"></ion-icon></button>
-                    <button className='lbtn' id='discord'><ion-icon name="logo-discord"></ion-icon></button>
+                    <button  className='lbtn' id='mail'><ion-icon name="mail-outline"></ion-icon></button>
+                    <button className='lbtn' id='github' ><ion-icon name="logo-github"></ion-icon></button>
+                    <button  className='lbtn' id='discord' ><ion-icon name="logo-discord"></ion-icon></button>
                 </div>
             </div>
-            <button id='nextp2'><ion-icon name="arrow-forward-outline" id="arrow"></ion-icon></button>
+            <button id='nextp2' onClick={() => navigate("/GB")}><ion-icon name="arrow-forward-outline" id="arrow"></ion-icon></button>
         </div>
     </div>
     </>

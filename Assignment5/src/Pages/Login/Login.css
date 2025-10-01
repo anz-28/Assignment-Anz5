@@ -1,0 +1,93 @@
+*:focus {
+    outline: none;
+}
+#logindiv{
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 40%;
+    background-color: #0a4b2c;
+    border-radius: 30px;
+}
+#logindiv h3{
+    margin-top: 10%;
+    font-size: 250%;
+    margin-bottom: 0;
+}
+#loginform{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 90%;
+    padding: 5%;
+}
+#loginform h2{
+    padding: 0;
+    font-size: 150%;
+}
+#loginform label{
+    height: 12%;
+}
+#loginform input{
+        background-color: #d5dbaf;
+    height: 10%;
+    border: 0;
+    margin-bottom: 5%;
+    padding-left:15px ;
+    padding-right:15px ;
+    border-radius: 5px;
+}
+#loginform button{
+    position: absolute;
+    height: 10%;
+    width: 30%;
+    transform: translate(100%,700%);
+    background-color: #d5dbaf;
+    border: 0;
+    color: #0a4b2c;
+    border-radius: 20px;
+}
+#prev3{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7%;
+    height: 8%;
+    background-color: #8d2323;
+    color: #ffd72f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(329%,800%);
+
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    border-width: 0;
+    font-size: 300%;
+}
+#tosignup{
+        display: flex;
+    justify-content: right;
+    align-items: center;
+
+    width: 7%;
+    height: 8%;
+    background-color: #8d2323;
+    color: #ffd72f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(1000%,350%);
+
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-width: 0;
+    font-size: 80%;
+}
+#tosignup h2{
+    padding: 0;
+    padding-right:10%;
+}
