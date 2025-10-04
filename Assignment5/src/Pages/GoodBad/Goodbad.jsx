@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../../Components/header'
+import Header from '../../Components/Header'
 import './GoodBad.css'
 import { useNavigate } from 'react-router-dom'
 

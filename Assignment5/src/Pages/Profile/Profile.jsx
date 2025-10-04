@@ -1,6 +1,6 @@
 import React from 'react'
 import './Profile.css'
-import Header from '../../Components/header'
+import Header from '../../Components/Header'
 import { useNavigate } from 'react-router-dom'
 
 function Profile() {
