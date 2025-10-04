@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../../Components/Header'
-import './GoodBad.css'
+import '../GoodBad/Goodbad.css'
 import { useNavigate } from 'react-router-dom'
 
 function Goodbad() {

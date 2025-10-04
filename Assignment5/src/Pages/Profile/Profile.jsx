@@ -1,5 +1,5 @@
 import React from 'react'
-import './Profile.css'
+import '../Profile/Profile.css'
 import Header from '../../Components/Header'
 import { useNavigate } from 'react-router-dom'
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import Cinemaimg from '../../assets/Cineimg.jpg'
-import './Cinema.css'
+import '../Cinema/Cinema.css'
 import { useNavigate } from 'react-router-dom'
 
 function Cinema() {
