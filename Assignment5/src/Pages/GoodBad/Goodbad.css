@@ -21,7 +21,7 @@
     position: absolute;
     transform: translate(0,110%);
 }
-#GBt h4{
+#GBt h4{z-index: 1;
     font-size: 800%;
     margin: 0%;
     line-height: 100%;
